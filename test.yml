@@ -1,0 +1,3 @@
+ansible -m raw -a '/usr/bin/uptime' dragan
+ansible -m ping dragan
+ansible dragan -a 'whoami'
