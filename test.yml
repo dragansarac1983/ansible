@@ -1,3 +1,12 @@
-ansible -m raw -a '/usr/bin/uptime' dragan
-ansible -m ping dragan
-ansible dragan -a 'whoami'
+--- 
+- 
+  become: true
+  hosts: svi
+  tasks: 
+    - 
+      name: "uradi u name"
+      shell: "uname -a > /home/ansible/ansible/rezultat.txt"
+    - 
+      name: whoami
+      shell: "whoami >> /home/ansible/ansible/rezultat.txt"
+
