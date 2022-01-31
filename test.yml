@@ -10,3 +10,4 @@
       name: whoami
       shell: "whoami >> /home/ansible/ansible/rezultat.txt"
 
+
