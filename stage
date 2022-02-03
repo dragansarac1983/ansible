@@ -1,0 +1,13 @@
+node{
+    stage('korak1'){
+       def varijabla = "Dragan Sarac"
+       echo "Cao ${varijabla}" 
+    }
+    stage('korak2'){
+        echo 'korak 2 je izvrsen'
+    }
+    stage('korak3'){
+        echo 'korak 3 je izvrsen'
+    }
+    
+}
