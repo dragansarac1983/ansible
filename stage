@@ -1,13 +1,13 @@
 node{
     stage('korak1'){
        def varijabla = "Dragan Sarac"
-       echo "Cao ${varijabla}" 
+       echo "Cao ${varijabla} korak sa GIT-a je izvrsen" 
     }
     stage('korak2'){
-        echo 'korak 2 je izvrsen'
+        echo 'korak 2 sa GIT-a je izvrsen'
     }
     stage('korak3'){
-        echo 'korak 3 je izvrsen'
+        echo 'korak 3 sa GIT-a je izvrsen'
     }
     
 }
